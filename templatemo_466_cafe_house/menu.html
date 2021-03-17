@@ -15,8 +15,8 @@ http://www.templatemo.com/tm-466-cafe-house
   <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/templatemo-style.css" rel="stylesheet">    
-  <link href="css/styles.css" rel="stylesheet">  
+  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,7 +36,7 @@ http://www.templatemo.com/tm-466-cafe-house
     <div class="loader-section section-right"></div>
   </div>
   <!-- End Preloader -->
-  <div class="tm-top-header">
+  <div id="encabezado" class="tm-top-header">
     <div class="container">
       <div class="row">
         <div class="tm-top-header-inner">
@@ -74,29 +74,14 @@ http://www.templatemo.com/tm-466-cafe-house
         <p class="gray-text tm-welcome-description">Buscamos brindar un buen momento con amigos o familia acompañados de
           un café. Disfruta de nuestros deliciosos postres y bebidas, contamos con todas las medidas de seguridad anti
           COVID-19.</p>
-        <a href="#main" class="tm-more-button tm-more-button-welcome">Leer más</a>
+        <a href="#main" class="tm-more-button tm-more-button-welcome">Ver más</a>
       </div>
       <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">
     </div>
   </section>
   <div class="tm-main-section light-gray-bg">
     <div class="container" id="main">
-      <section class="tm-section row">
-        <!-- <div class="col-lg-9 col-md-9 col-sm-8">
-          <h2 class="tm-section-header gold-text tm-handwriting-font">Variety of Menus</h2>
-          <h2>Cafe House</h2>
-          <p class="tm-welcome-description">This is free HTML5 website template from <span
-              class="blue-text">template</span><span class="green-text">mo</span>. Fndimentum rhoncus, sem quam semper
-            libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
-            lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Ettiam
-            sit amet orci eget eros faucibus tincidunt.</p>
-          <a href="#" class="tm-more-button margin-top-30">Read More</a>
-        </div> -->
-        <!-- <div class="col-lg-3 col-md-3 col-sm-4 tm-welcome-img-container">
-          <div class="inline-block shadow-img">
-            <img src="img/1.jpg" alt="Image" class="img-circle img-thumbnail">
-          </div>
-        </div> -->
+      <section class="tm-section row">      
       </section>
       <section class="tm-section row">
         <div class="col-lg-12 tm-section-header-container margin-bottom-30">
@@ -106,174 +91,121 @@ http://www.templatemo.com/tm-466-cafe-house
             <hr class="tm-hr">
           </div>
         </div>
-        <div class="menulista">
-          <div class="container tm-position-relative col-lg-3 col-md-3">
-              <nav class="tm-side-menu">
-                <ul>
-                  <li><a href="#cafeCaliente" class="active">Café Caliente</a></li>
-                  <li><a href="#cafeFrio">Café Frío</a></li>
-                  <li><a href="#">Caffè latte</a></li>
-                  <li><a href="#">Coffee milk</a></li>
-                  <li><a href="#">Café mocha</a></li>
-                  <li><a href="#">Cappuccino</a></li>
-                  <li><a href="#">Espresso</a></li>
-                  <li><a href="#">Iced coffee</a></li>
-                  <li><a href="#">Instant coffee</a></li>
-                  <li><a href="#">Mocha</a></li>
-                  <li><a href="#">black coffee</a></li>
-                </ul>
-              </nav>
-              <img src="img/vertical-menu-bg.png" alt="Menu bg" class="tm-side-menu-bg">
+        <div>
+          <div class="tm-position-relative col-lg-3 col-md-3">
+            <nav class="tm-side-menu">
+              <ul>
+                <li><a href="#cafeCaliente" class="active">Café Caliente</a></li>
+                <li><a href="/templatemo_466_cafe_house/cafeFrio.html#cafeFrio">Café Frío</a></li>
+                <li><a href="/templatemo_466_cafe_house/bebidasAlcoholicas.html#bebidasAloholicas">Bebidas con Alcohol</a></li>
+                <li><a href="/templatemo_466_cafe_house/entradas.html#entradas">Entradas</a></li>
+                <li><a href="/templatemo_466_cafe_house/platosFuertes.html#platosFuertes">Platos Fuertes</a></li>                
+              </ul>
+            </nav>
+            <img src="img/vertical-menu-bg1.png" alt="Menu bg" class="tm-side-menu-bg">
+          </div>
+        </div>
+        <div class="tm-menu-product-content col-lg-9 col-md-9">
+          <!-- Café Caliente -->
+          <div id="cafeCaliente" class="tm-product">
+            <img src="img/AmericanoCaliente_opt.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Americano</h3>
+              <p class="tm-product-description">El café americano es la mezcla de agua caliente y café procesado en un
+                máquina de Espresso. </p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>30</a>
             </div>
           </div>
-          <div class="tm-menu-product-content col-lg-9 col-md-9">
-            <!-- Café Caliente -->
-            <div  id="cafeCaliente" class="tm-product">
-              <img src="img/americano.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Americano</h3>
-                <p class="tm-product-description">El café americano es la mezcla de agua caliente y café procesado en un máquina de Espresso. </p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>30</a>
-              </div>
+          <div class="tm-product">
+            <img src="img/espresso.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Espresso</h3>
+              <p class="tm-product-description">Se realiza haciendo pasar durante 25-30 segundos un chorro de agua
+                caliente a presión (9 o más atmósferas) a través de una capa de 7 gramos fina y prensada de café molido.
+              </p>
             </div>
-            <div class="tm-product">
-              <img src="img/espresso.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Espresso</h3>
-                <p class="tm-product-description">Se realiza haciendo pasar durante 25-30 segundos un chorro de agua caliente a presión (9 o más atmósferas) a través de una capa de 7 gramos fina y prensada de café molido.</p>                  
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>20</a>
-              </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>20</a>
             </div>
-            <div class="tm-product">
-              <img src="img/cafeLatte.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Café Latte</h3>
-                <p class="tm-product-description">Es un tipo de café preparado a base de café espresso y leche al vapor. Suele prepararse con un tercio de espresso, dos tercios de leche calentada y un centímetro de espuma.</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>15</a>
-              </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/cafeLatte.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Café Latte</h3>
+              <p class="tm-product-description">Es un tipo de café preparado a base de café espresso y leche al vapor.
+                Suele prepararse con un tercio de espresso, dos tercios de leche calentada y un centímetro de espuma.
+              </p>
             </div>
-            <div class="tm-product">
-              <img src="img/moccacino.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Mocaccino</h3>
-                <p class="tm-product-description">Lleva un tercio de eapresso y dos tercios de leche vaporizada, pero se añade una parte de jarabe de chocolate,</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>25</a>
-              </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>15</a>
             </div>
-            <div class="tm-product">
-              <img src="img/cafeCortado.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Cortado</h3>
-                <p class="tm-product-description">Café espresso con una pequeña cantidad de leche caliente para quitarle un toque de amargo</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>45</a>
-              </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/moccacino.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Mocaccino</h3>
+              <p class="tm-product-description">Lleva un tercio de eapresso y dos tercios de leche vaporizada, pero se
+                añade una parte de jarabe de chocolate,</p>
             </div>
-             <!-- Café Frío -->
-             <div id="cafeFrio" class="tm-product">
-              <img src="img/espressoF.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Espresso Frío</h3>
-                <p class="tm-product-description">El café americano es la mezcla de agua caliente y café procesado en un máquina de Expreso. </p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>30</a>
-              </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>25</a>
             </div>
-            <div class="tm-product">
-              <img src="img/capuchinoFjpg.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Capuccino Frío</h3>
-                <p class="tm-product-description">Se realiza haciendo pasar durante 25-30 segundos un chorro de agua caliente a presión (9 o más atmósferas) a través de una capa de 7 gramos fina y prensada de café molido.</p>                  
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>20</a>
-              </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/cafeCortado.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Cortado</h3>
+              <p class="tm-product-description">Café espresso con una pequeña cantidad de leche caliente para quitarle
+                un toque de amargo</p>
             </div>
-            <div class="tm-product">
-              <img src="img/mocaccinoF.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Mocaccino Frío</h3>
-                <p class="tm-product-description">Es un tipo de café preparado a base de café espresso y leche al vapor. Suele prepararse con un tercio de espresso, dos tercios de leche calentada y un centímetro de espuma.</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>15</a>
-              </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>45</a>
             </div>
-            <div class="tm-product">
-              <img src="img/Frapuccino.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Frapucchino</h3>
-                <p class="tm-product-description">Lleva un tercio de expreso y dos tercios de leche vaporizada, pero se añade una parte de jarabe de chocolate,</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>25</a>
-              </div>
-            </div>
-            <div class="tm-product">
-              <img src="img/cafeLatteF.jpg" alt="Product">
-              <div class="tm-product-text">
-                <h3 class="tm-product-title">Café Latte Frío</h3>
-                <p class="tm-product-description">Café expreso con una pequeña cantidad de leche caliente para quitarle un toque de amargo</p>
-              </div>
-              <div class="tm-product-price">
-                <a href="#" class="tm-product-price-link tm-handwriting-font"><span
-                    class="tm-product-price-currency">Q</span>45</a>
-              </div>
-            </div>
-          </div>         
-        </div>
-      </section>
+          </div>
+        </div>       
     </div>
+  </div>
+  </section>
+  </div>
   </div>
   <footer>
     <div class="tm-black-bg">
       <div class="container">
         <div class="row margin-bottom-60">
           <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
-            <h3 class="tm-footer-div-title">Main Menu</h3>
+            <h3 class="tm-footer-div-title">Menú Principal</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Directory</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Our Services</a></li>
+              <li><a href="/templatemo_466_cafe_house/index.html">Inicio</a></li>
+              <li><a href="/templatemo_466_cafe_house/index.html#main">Acerca de Nosotros</a></li>
+              <li><a href="#encabezado">Directorio</a></li>                   
             </ul>
           </nav>
           <div class="col-lg-5 col-md-5 tm-footer-div">
-            <h3 class="tm-footer-div-title">About Us</h3>
-            <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
-              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
-            <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
-              et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+            <h3 class="tm-footer-div-title">Acerca de Nosotros</h3>
+            <p class="margin-top-15">Buscamos brindar un buen momento con amigos o familia acompañados de un café.
+              Disfruta de nuestros deliciosos postres y bebidas, contamos con todas las medidas de seguridad anti
+              COVID-19</p>
           </div>
           <div class="col-lg-4 col-md-4 tm-footer-div">
-            <h3 class="tm-footer-div-title">Get Social</h3>
-            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+            <h3 class="tm-footer-div-title">Síguenos en</h3>
             <div class="tm-social-icons-container">
-              <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
-              <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
-              <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
+              <a href="https://www.facebook.com/Cup-Brown-101802812001405" class="tm-social-icon" target="_blank"><i
+                  class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/?lang=es" class="tm-social-icon" target="_blank"><i
+                  class="fa fa-twitter"></i></a>
+              <a href="https://gt.linkedin.com/" class="tm-social-icon" target="_blank"><i
+                  class="fa fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/" class="tm-social-icon" target="_blank"><i
+                  class="fa fa-youtube"></i></a>
+              <a href="https://www.behance.net/" class="tm-social-icon" target="_blank"><i
+                  class="fa fa-behance"></i></a>
             </div>
           </div>
         </div>
@@ -282,7 +214,7 @@ http://www.templatemo.com/tm-466-cafe-house
     <div>
       <div class="container">
         <div class="row tm-copyright">
-          <p class="col-lg-12 small copyright-text text-center">Copyright &copy; Cup Brown</p>
+          <p class="col-lg-12 small copyright-text text-center">Copyright &copy;Cup Brown</p>
         </div>
       </div>
     </div>
